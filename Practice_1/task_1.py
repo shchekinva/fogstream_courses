@@ -14,6 +14,8 @@ h=minutes//60
 m=minutes-60*h
 if h==24:
 	h=0
+if m==60:
+        m=0
 print(h)
 print(m)
 
